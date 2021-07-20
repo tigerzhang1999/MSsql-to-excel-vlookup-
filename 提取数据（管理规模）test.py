@@ -24,9 +24,9 @@ print(regnum) # 打印备案号元组确认是否正确
 
 #  连接服务器
 cnxn = pyodbc.connect("DRIVER={ODBC Driver 17 for SQL Server};"
-                            "SERVER=zyyxfunddb.go-goal.cn,35888;"
-                            "Database=CUS_FUND_DB;UID=simu_huaczq;"
-                            "PWD=44fxfmkvMm7w")
+                            "SERVER="
+                            "Database="
+                            "PWD=")
 
 cursor = cnxn.cursor()  # 创建cursor查询
 
